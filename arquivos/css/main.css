@@ -1,0 +1,72 @@
+html, body {
+	background: url(../gfx/carbon.gif) #fff;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	font-family: Arial;
+	font-size: 10px;
+	color: #848484;}
+a img {border: none;}
+
+.master {
+	background: url(../gfx/bgtop.gif) top repeat-x;
+	overflow: hidden;}
+
+.container {
+	position: relative;
+	width: 1050px;
+	margin: auto;}
+
+.top {
+	position: relative;
+	height: 60px;
+	text-align: right;}
+
+.header {position: relative;}
+.header h1 {display: none;}
+.header div.description {
+	position: relative;
+	float: right;
+	width: 660px;
+	font-family: Georgia, Palatino;
+	font-size: 16px;
+	font-style: italic;
+	text-align: justify;
+	letter-spacing: -1px;
+	color: #aaa;
+	padding-top: 10px;}
+
+.workHolder {
+	position: relative;
+	height: 514px;
+	background: #353535}
+.workHolder img.folioImg {
+	position: absolute;
+	top: -6px;
+	right: -7px;
+	z-index: 1000;}
+
+.workHolder img#prev-w {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+	z-index: 10000;}
+.workHolder img#next-w {
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	cursor: pointer;
+	z-index: 10000;}
+
+
+.socialLinks {
+	text-align: center;
+	height: 16px;
+	padding: 5px;
+	width: 190px;
+	background: #131313;
+	margin: auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;}
+.socialLinks ul li {display: inline;}
